@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    align-items: center;
+}
+.navbar{
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+   
+    
+}
+.part1{
+    padding-left: 6.5vh;
+}
+.part1 i{
+
+    color: gold;
+    font-size: 3vh;
+}
+.part2{
+
+    display: flex;
+    text-decoration: none;
+    gap: 6vh;
+    padding-left: 115vh;
+    font-size: 3vh;
+   
+}
+.part2 a{
+
+    color: rgb(0, 0, 0);
+}
+.photo img{
+
+    width: 94%;
+    height: 550px;
+    object-fit: cover;
+    margin-left: 3%;
+    border-radius: 2vh;
+    position: absolute;
+    z-index: -1;
+    
+    background-color: #eaeded;
+    
+}
+.tit
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15vh;
+    padding-top: 17vh;
+
+}
+.tit h1{
+   font-size: 13vh;
+   color:  white;
+   line-height: 1;
+    margin: 0; 
+}
+.tit button{
+
+    height: 45px;
+    width:120px;
+    border-radius: 2vh;
+    font-size: 2.5vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    background-color: #eaeded;
+    
+}
+.facility{
+   margin-top: 30vh;
+    height: 600px;
+    width: 94%;
+    margin-left: 3%;
+    background-color: #eaeded;
+    border-radius: 2vh; 
+}
+.head h1{
+ margin-left: 85vh;
+ font-family: 5.5vh;
+}
+#img1{
+    display: flex;
+    margin-left: 12vh;
+}
+#food , #room , #other{
+
+    height: 490px;
+    width: 42vh ;
+    margin-left: 10vh;
+    margin-top: 4vh;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2vh;
+}
+#food img , #room img ,#other img{
+
+    object-fit: cover;
+    height: 440px;
+    width: 34vh;
+   margin-left: 4vh;
+   padding-top: 20px;
+}
+#img1 h1{
+
+ padding-left: 9vh;
+ font-size: 3.5vh;
+ margin-bottom: 2vh;
+
+}
+.hotel2{
+
+    height:600px;
+    width: 94%;
+    background-color: #eaeded;
+    margin-left: 3%;
+    margin-top: 7vh;
+    border-radius: 2vh;
+}
+.rr{
+
+    display: flex;
+    gap: 10vh;
+    margin-left: 22vh;
+    margin-top: 6vh;
+}
+.hotel2 img{
+    
+    height: 300px;
+    width: 450px;
+    padding-top: 30px;
+    padding-left: 30px;
+   
+}
+#fr, #sec{
+
+    height: 450px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 2vh;
+}
+.hotel2 h1{
+
+   font-size: 3.7vh;
+   padding-left: 4vh;
+   
+}
+.rr button{
+
+    margin-left: 4vh;
+    background-color: antiquewhite;
+    height: 35px;
+    width: 100px;
+    border-radius: 2vh;
+    font-size: 2.2vh;
+}
+b{
+    font-size: 5vh;
+    margin-left: 75vh;
+}
+.spe{
+
+    height: 400px;
+    width: 94%;
+    margin-left: 3%;
+    background-color: #eaeded;
+    margin-top: 7vh;
+    border-radius: 2vh;
+    padding-left: 3vh;
+}
+.spe p{
+
+    font-size: 2.8vh;
+}
+
+.book{
+
+    height: 300px;
+    width: 94%;
+    margin-left: 3%;
+    background-color: #eaeded;
+    margin-top: 7vh;
+    border-radius: 2vh;
+    padding-left: 3vh;
+    margin-bottom: 7vh;
+}
+.book input, .book select{
+
+    height: 25px;
+    width: 20vh;
+    padding-left: 1.5vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5vh;
+    border-radius: 3vh;
+  }
+
+  .book i{
+
+    font-size: 3vh;
+    padding-left: 5vh;
+    padding-right: 1.2vh;
+  }
+  .cv{
+    margin-top: 4VH;
+  }
+  .allc{
+    text-decoration: none;
+    display: flex;
+  }
+  .allc i{
+    gap: 3vh;
+    padding-left: 6vh;
+  }
